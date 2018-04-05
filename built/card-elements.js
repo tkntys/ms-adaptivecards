@@ -1039,7 +1039,7 @@ var ActionButton = /** @class */ (function () {
         this._element = document.createElement("button");
         this._element.type = "button";
         this._element.style.overflow = "hidden";
-        this._element.style.whiteSpace = "nowrap";
+        this._element.style.whiteSpace = "normal";
         this._element.style.textOverflow = "ellipsis";
         this._element.onclick = function (e) { _this.click(); };
         this.updateCssStyle();
